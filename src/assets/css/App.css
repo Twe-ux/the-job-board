@@ -1,0 +1,92 @@
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(49, 49, 49);
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 70px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.info {
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+
+.red {
+  border: solid 5px red;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  justify-content: space-between;
+}
+.green {
+  border: solid 5px green;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.yellow {
+  border: solid 5px yellow;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.pink {
+  border: solid 5px pink;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.blue {
+  border: solid 5px blue;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  justify-content: space-between;
+}
